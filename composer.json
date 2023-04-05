@@ -1,0 +1,18 @@
+{
+  "name": "ravenitsystems/mail_router",
+  "description": "A script that replaces the sendmail application on a linux system allowing for individual domain configuration",
+  "type": "project",
+  "license": "Apache License",
+
+  "require": {
+    "monolog/monolog": "1.27.1",
+    "phpmailer/phpmailer": "6.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ravenitsystems\\mail_router\\" : "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
